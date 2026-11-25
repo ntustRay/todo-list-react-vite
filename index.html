@@ -5,35 +5,6 @@
     <link rel="icon" type="image/svg+xml" href="/todo-list-react-vite/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo-list-react</title>
-    <script>
-      (() => {
-        const base = '/todo-list-react-vite/';
-        if (location.origin !== 'https://ntustray.github.io' || location.pathname !== base) return;
-        if (location.search || location.hash || navigator.doNotTrack === '1' || navigator.globalPrivacyControl) return;
-        const referrer = document.referrer ? new URL(document.referrer) : null;
-        if (referrer && (referrer.search || referrer.hash || referrer.pathname !== '/')) return;
-        const id = 'G-8JJP6NJSPG';
-        if (window['ga-disable-' + id]) return;
-
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { window.dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', id, {
-          page_location: location.origin + base,
-          page_title: 'Todo List React',
-          page_referrer: referrer?.origin ?? '',
-          cookie_path: base,
-          cookie_prefix: 'todo_list_react_vite',
-          allow_google_signals: false,
-          allow_ad_personalization_signals: false,
-        });
-        const tag = document.createElement('script');
-        tag.async = true;
-        tag.referrerPolicy = 'no-referrer';
-        tag.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
-        document.head.append(tag);
-      })();
-    </script>
     <script type="module" crossorigin src="/todo-list-react-vite/assets/index-Bu-xAviV.js"></script>
     <link rel="stylesheet" crossorigin href="/todo-list-react-vite/assets/index-ar7-X_xP.css">
   </head>
